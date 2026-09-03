@@ -1,0 +1,15 @@
+wearengine.appId=
+wearengine.lite.peerPackage=
+wearengine.lite.peerFingerprint=
+wearengine.smart.peerPackage=
+wearengine.smart.peerFingerprint=
+
+healthkit.clientId=
+healthkit.clientSecret=
+healthkit.deepLink=wearhealthkit://oauth/callback
+healthkit.redirectUri=
+healthkit.loginFreeAppId=
+healthkit.apiHost=
+healthkit.schemeSecret=
+healthkit.authMethod=WEB_OAUTH
+healthkit.historyWindow=NONE
