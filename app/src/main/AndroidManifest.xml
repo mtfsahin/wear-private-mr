@@ -6,6 +6,7 @@
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
     <uses-permission android:name="com.huawei.wearengine.permission.DEVICE_MANAGER" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="false"
@@ -29,6 +30,16 @@
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
+
+        <activity
+            android:name=".healthkit.auth.WebAuthActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
     </application>
+
+    <queries>
+        <package android:name="com.huawei.health" />
+        <package android:name="com.huawei.hwid" />
+    </queries>
 
 </manifest>
